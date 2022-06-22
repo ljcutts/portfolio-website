@@ -14,11 +14,18 @@ const About: React.FC = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Hi. I'm Larry, nice to meet you. Please take a look around.</p>
+            <p>
+              Hi. Im Larry, nice to meet you. Please take a look around.
+            </p>
           </div>
           <div>
             <p>
-             I have been a part of the crypto and web3 space for nearly two years and have a deep passion for it. I believe that crypto is the future and can change the way in which we think about digital cash. I also love blockchain technology and have a strong belief in a decentralized internet where users can take ownership in things and won't have to feel entrapped by centralized entities.
+              I have been a part of the crypto and web3 space for nearly two
+              years and have a deep passion for it. I believe that crypto is the
+              future and can change the way in which we think about digital
+              cash. I also love blockchain technology and have a strong belief
+              in a decentralized internet where users can take ownership in
+              things and wont have to feel entrapped by centralized entities.
             </p>
           </div>
         </div>

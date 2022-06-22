@@ -16,10 +16,10 @@ const Hero: React.FC = () => {
           Larry Cutts
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Full Stack Blockchain Developer
+          Im a Full Stack Blockchain Developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-         I'm a fullstack blockchain developer who has the confidence in adding web3 functionality to frontends and can build smart contracts on the backend. Along with having knowledge of popular and often used web3 technologies.
+         Im a fullstack blockchain developer who has the confidence in adding web3 functionality to frontends and can build smart contracts on the backend. Along with having knowledge of popular and often used web3 technologies.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-300 hover:border-yellow-300">

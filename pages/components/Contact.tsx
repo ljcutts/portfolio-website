@@ -1,5 +1,3 @@
-
-
 const Contact:React.FC = () => {
   return (
     <div
@@ -38,7 +36,7 @@ const Contact:React.FC = () => {
           placeholder="Message"
         ></textarea>
         <button className="text-white border-2 hover:bg-yellow-300 hover:border-yellow-300 px-4 py-3 my-8 mx-auto flex items-center">
-          Let's Collaborate
+          Lets Collaborate
         </button>
       </form>
     </div>

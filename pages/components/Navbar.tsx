@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaYoutube, FaTwitter} from 'react-icons/fa'
 import {HiOutlineMail} from "react-icons/hi"
 import {BsFillPersonLinesFill} from "react-icons/bs"
 import Links from 'next/link';
@@ -105,6 +105,26 @@ const Navbar: React.FC = () => {
                 target="_blank"
               >
                 Github <FaGithub size={30} />
+              </a>
+            </Links>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fb0000]">
+            <Links href="https://www.youtube.com/channel/UCifzIH_LbTJVjHbP97Qy8-A">
+              <a
+                className="flex justify-between items-center w-full text-gray-300"
+                target="_blank"
+              >
+                Youtube <FaYoutube size={30} />
+              </a>
+            </Links>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3e7bec]">
+            <Links href="https://twitter.com/LarryCutts6">
+              <a
+                className="flex justify-between items-center w-full text-gray-300"
+                target="_blank"
+              >
+                Twitter <FaTwitter size={30} />
               </a>
             </Links>
           </li>

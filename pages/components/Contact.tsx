@@ -1,4 +1,9 @@
+import { useState } from "react";
+
 const Contact:React.FC = () => {
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   return (
     <div
       name="contact"
@@ -20,6 +25,9 @@ const Contact:React.FC = () => {
         <input
           className="bg-[#ccd6f6] p-2"
           type="text"
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+            setName(e.target.value)
+          }
           placeholder="Name"
           name="name"
         />
@@ -28,16 +36,29 @@ const Contact:React.FC = () => {
           type="email"
           placeholder="Email"
           name="email"
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+            setEmail(e.target.value)
+          }
         />
         <textarea
           className="bg-[#ccd6f6] p-2"
           name="message"
           rows={10}
           placeholder="Message"
+          onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
+            setMessage(e.target.value)
+          }
         ></textarea>
-        <button className="text-white border-2 hover:bg-yellow-300 hover:border-yellow-300 px-4 py-3 my-8 mx-auto flex items-center">
-          Lets Collaborate
-        </button>
+        {(name === "" || email === "" || message === "") && (
+          <div className="text-white border-2 opacity-50 px-4 py-3 my-8 mx-auto flex items-center">
+            Lets Collaborate
+          </div>
+        )}
+        {(name !== "" && email !== "" && message !== "") && (
+          <button className="text-white border-2 hover:bg-yellow-300 hover:border-yellow-300 px-4 py-3 my-8 mx-auto flex items-center">
+            Lets Collaborate
+          </button>
+        )}
       </form>
     </div>
   );

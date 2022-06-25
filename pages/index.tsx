@@ -25,6 +25,10 @@ const Home: NextPage = () => {
           property="og:image"
           content="https://user-images.githubusercontent.com/85313109/175751057-8e9572aa-6d9c-4d2e-af6d-2b3948d19bf8.JPG"
         />
+        <link
+          itemProp="image"
+          href="https://user-images.githubusercontent.com/85313109/175751057-8e9572aa-6d9c-4d2e-af6d-2b3948d19bf8.JPG"
+        />
         <meta name="author" content="Larry J Cutts" />
         <link rel="icon" href="/Capture-6.JPG" />
       </Head>

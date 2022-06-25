@@ -12,17 +12,26 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Larry J Cutts</title>
-        <meta name="description" content="Larry J Cutts Portfolio Website" />
+        <meta name="title" content="Larry Cutts Portfolio" />
+        <meta
+          name="description"
+          content="I am Larry Cutts, A FullStack Blockchain Developer"
+        />
+        <meta
+          name="keywords"
+          content="Larry Cutts, nextjs developer, solidity developer, frontend developer, smart contract developer, portfolio"
+        />
+        <meta name="author" content="Larry J Cutts" />
         <link rel="icon" href="/Capture-6.JPG" />
       </Head>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Skills/>
-      <Work/>
-      <Contact/>
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Work />
+      <Contact />
     </div>
-  )
+  );
 }
 
 export default Home

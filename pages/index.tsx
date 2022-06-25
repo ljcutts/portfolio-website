@@ -21,6 +21,7 @@ const Home: NextPage = () => {
           name="keywords"
           content="Larry Cutts, nextjs developer, solidity developer, frontend developer, smart contract developer, portfolio"
         />
+        <meta property="og:image" content="/Capture-6.JPG" />
         <meta name="author" content="Larry J Cutts" />
         <link rel="icon" href="/Capture-6.JPG" />
       </Head>

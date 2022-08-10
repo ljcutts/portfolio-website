@@ -1,10 +1,10 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 
- declare module "react" {
-   interface HTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
-     name?: string;
-   }
- }
+declare module "react" {
+  interface HTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
+    name?: string;
+  }
+}
 
 const Hero: React.FC = () => {
   return (
@@ -19,10 +19,13 @@ const Hero: React.FC = () => {
           Im a Full Stack Blockchain Developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-         Im a fullstack blockchain developer who has the confidence in adding web3 functionality to frontends and can build smart contracts on the backend. Along with having knowledge of popular and often used web3 technologies.
+          Im a fullstack blockchain developer who has the confidence in adding
+          web3 functionality to frontends and can build smart contracts on the
+          backend. Along with having knowledge of popular and often used web3
+          technologies.
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-300 hover:border-yellow-300">
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-300 hover:text-[#0a192f] hover:border-yellow-300">
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
@@ -32,6 +35,6 @@ const Hero: React.FC = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Hero
+export default Hero;

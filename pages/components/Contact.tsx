@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-const Contact:React.FC = () => {
-  const [name, setName] = useState("")
+const Contact: React.FC = () => {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   return (
@@ -23,7 +23,7 @@ const Contact:React.FC = () => {
           </p>
         </div>
         <input
-          className="bg-[#ccd6f6] p-2"
+          className="bg-[#ccd6f6] p-2.5 rounded-sm"
           type="text"
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             setName(e.target.value)
@@ -32,7 +32,7 @@ const Contact:React.FC = () => {
           name="name"
         />
         <input
-          className="my-4 p-2 bg-[#ccd6f6]"
+          className="my-4 p-2.5 bg-[#ccd6f6] rounded-sm"
           type="email"
           placeholder="Email"
           name="email"
@@ -41,7 +41,7 @@ const Contact:React.FC = () => {
           }
         />
         <textarea
-          className="bg-[#ccd6f6] p-2"
+          className="bg-[#ccd6f6] p-2 rounded-sm"
           name="message"
           rows={10}
           placeholder="Message"
@@ -54,14 +54,14 @@ const Contact:React.FC = () => {
             Lets Collaborate
           </div>
         )}
-        {(name !== "" && email !== "" && message !== "") && (
-          <button className="text-white border-2 hover:bg-yellow-300 hover:border-yellow-300 px-4 py-3 my-8 mx-auto flex items-center">
+        {name !== "" && email !== "" && message !== "" && (
+          <button className="text-white border-2 hover:text-[#0a192f] hover:bg-yellow-300 hover:border-yellow-300 px-4 py-3 my-8 mx-auto flex items-center">
             Lets Collaborate
           </button>
         )}
       </form>
     </div>
   );
-}
+};
 
-export default Contact
+export default Contact;

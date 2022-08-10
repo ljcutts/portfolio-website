@@ -1,14 +1,21 @@
-import { useState } from 'react';
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaYoutube, FaTwitter} from 'react-icons/fa'
-import {HiOutlineMail} from "react-icons/hi"
-import {BsFillPersonLinesFill} from "react-icons/bs"
-import Links from 'next/link';
-import {Link} from 'react-scroll';
+import { useState } from "react";
+import {
+  FaBars,
+  FaTimes,
+  FaGithub,
+  FaLinkedin,
+  FaYoutube,
+  FaTwitter,
+} from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import Links from "next/link";
+import { Link } from "react-scroll";
 
 const Navbar: React.FC = () => {
-  const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(false);
 
-  const handleClick = () => setNav(!nav)
+  const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
@@ -16,29 +23,59 @@ const Navbar: React.FC = () => {
       </div>
       {/* menu */}
       <ul className="hidden md:flex">
-        <li>
-          <Link to="home" smooth={true} duration={500}>
+        <li className="">
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className="group transition duration-300"
+          >
             Home
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-yellow-300"></span>
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            className="group transition duration-300"
+          >
             About
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-yellow-300"></span>
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link
+            to="skills"
+            smooth={true}
+            duration={500}
+            className="group transition duration-300"
+          >
             Skills
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-yellow-300"></span>
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500}>
+          <Link
+            to="work"
+            smooth={true}
+            duration={500}
+            className="group transition duration-300"
+          >
             Work
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-yellow-300"></span>
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="group transition duration-300"
+          >
             Contact
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-yellow-300"></span>
           </Link>
         </li>
       </ul>
@@ -59,29 +96,64 @@ const Navbar: React.FC = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="home"
+            smooth={true}
+            duration={500}
+            className="group transition duration-300"
+          >
             Home
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-yellow-300"></span>
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="about"
+            smooth={true}
+            duration={500}
+            className="group transition duration-300"
+          >
             About
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-yellow-300"></span>
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="skills"
+            smooth={true}
+            duration={500}
+            className="group transition duration-300"
+          >
             Skills
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-yellow-300"></span>
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="work"
+            smooth={true}
+            duration={500}
+            className="group transition duration-300"
+          >
             Work
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-yellow-300"></span>
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="group transition duration-300"
+          >
             Contact
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-yellow-300"></span>
           </Link>
         </li>
       </ul>
@@ -152,6 +224,6 @@ const Navbar: React.FC = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

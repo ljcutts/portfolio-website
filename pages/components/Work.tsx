@@ -21,7 +21,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-sm whitespace-nowrap font-bold text-white tracking-wider">
-                LJCrypto-Exchange(Portfolio Project)
+                LJCrypto-Exchange
               </span>
               <div className="pt-8 text-center">
                 <Link href="https://ljcrypto-exchange.vercel.app/">
@@ -41,21 +41,21 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="shadow-lg shadow-[#040c16] bg-defiExchange group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div className="shadow-lg shadow-[#040c16] bg-wcNFT group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-base whitespace-nowrap font-bold text-white tracking-wider">
-                LearnWeb3Dao Defi-Exchange
+                WC-NFT-Fantasy(Hackathon)
               </span>
               <div className="pt-8 text-center">
-                <Link href="https://my-defi-exchange.vercel.app/">
+                <Link href="https://wc-nft-fantasy-theta.vercel.app/">
                   <a target="_blank">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
                     </button>
                   </a>
                 </Link>
-                <Link href="https://github.com/ljcutts/My-Defi-Exchange">
+                <Link href="https://github.com/CoolBuidlers/WC-NFT-Fantasy">
                   <a target="_blank">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
@@ -66,21 +66,21 @@ const Work = () => {
             </div>
           </div>
           {/* Grid Item */}
-          <div className="shadow-lg shadow-[#040c16] bg-randomWinner group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div className="shadow-lg shadow-[#040c16] bg-nfticket group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-base whitespace-nowrap font-bold text-white tracking-wider">
-                LearnWeb3Dao RandomWinnerGame
+                NFTicket(Hackathon)
               </span>
               <div className="pt-8 text-center">
-                <Link href="https://random-winner-with-subgraphs.vercel.app/">
+                <Link href="https://bafybeifclndlmnvrfqoewlxbgwdp2ybcxvvmlg2rgnyvz4nm2w5jay2vum.ipfs.gateway.valist.io/">
                   <a target="_blank">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
                     </button>
                   </a>
                 </Link>
-                <Link href="https://github.com/ljcutts/RandomWinner-With-Subgraphs">
+                <Link href="https://github.com/Abbas-Khann/NFTicket">
                   <a target="_blank">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code

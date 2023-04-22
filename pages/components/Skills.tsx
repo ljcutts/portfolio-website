@@ -21,12 +21,12 @@ const Skills:React.FC = () => {
             <p className="my-4">NextJS</p>
           </div>
           <div className="shawdow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="/solidity2.svg" alt="" />
-            <p className="my-4">Solidity</p>
+            <img className="w-20 mx-auto" src="/nodejs.svg" alt="" />
+            <p className="my-4">ExpressJS</p>
           </div>
           <div className="shawdow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-24 mx-auto" src="/hardhat.png" alt="" />
-            <p className="my-4">Hardhat</p>
+            <img className="w-[85px] mx-auto" src="/mongodb.png" alt="" />
+            <p className="my-4">MongoDB</p>
           </div>
           <div className="shawdow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-28 mx-auto" src="/ethers.png" alt="" />
@@ -37,12 +37,12 @@ const Skills:React.FC = () => {
             <p className="my-4">Chainlink</p>
           </div>
           <div className="shawdow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="/ipfs.png" alt="" />
-            <p className="my-4">IPFS</p>
+            <img className="w-20 mx-auto" src="/solidity2.svg" alt="" />
+            <p className="my-4">Solidity</p>
           </div>
           <div className="shawdow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="/grt.png" alt="" />
-            <p className="my-4">SubGraphs</p>
+            <img className="w-24 mx-auto" src="/hardhat.png" alt="" />
+            <p className="my-4">Hardhat</p>
           </div>
         </div>
       </div>

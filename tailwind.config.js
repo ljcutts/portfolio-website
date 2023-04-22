@@ -12,6 +12,8 @@ module.exports = {
       jobFiltering: "url('/job-filtering.png')",
       ipAddress: "url('/ip-address.png')",
       commentsSection: "url('/comments-section.png')",
+      wcNFT: "url('/wcNFT.png')",
+      nfticket: "url('/nfticket.png')"
     },
   },
   plugins: [],

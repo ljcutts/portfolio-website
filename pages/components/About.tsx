@@ -20,12 +20,7 @@ const About: React.FC = () => {
           </div>
           <div>
             <p>
-              I have been a part of the crypto and web3 space for nearly two
-              years and have a deep passion for it. I believe that crypto is the
-              future and can change the way in which we think about digital
-              cash. I also love blockchain technology and have a strong belief
-              in a decentralized internet where users can take ownership in
-              things and wont have to feel entrapped by centralized entities.
+              I started my journey as someone who was intrigued by blockchain technology and learned smart contract development. I am passionate about crypto and believe can change the way in which we think about digital cash. I have then dived deep into API integration and how authetication and traditional databases work in the web2 space.
             </p>
           </div>
         </div>

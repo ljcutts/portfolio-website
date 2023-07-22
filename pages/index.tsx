@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Skills from './components/Skills'
 import Work from './components/Work'
+import {FC, useRef} from "react"
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +16,7 @@ const Home: NextPage = () => {
         <meta name="title" content="Larry Cutts Portfolio" />
         <meta
           name="description"
-          content="I am Larry Cutts, A FullStack Blockchain Developer"
+          content="I am Larry Cutts, A FullStack Developer"
         />
         <meta
           name="keywords"

@@ -25,8 +25,8 @@ const Skills:React.FC = () => {
             <p className="my-4">ExpressJS</p>
           </div>
           <div className="shawdow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-[85px] mx-auto" src="/mongodb.png" alt="" />
-            <p className="my-4">MongoDB</p>
+            <img className="w-[85px] mx-auto" src="/postgresql.png" alt="" />
+            <p className="my-4">PostgreSQL</p>
           </div>
           <div className="shawdow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-28 mx-auto" src="/ethers.png" alt="" />
@@ -41,7 +41,7 @@ const Skills:React.FC = () => {
             <p className="my-4">Solidity</p>
           </div>
           <div className="shawdow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-24 mx-auto" src="/hardhat.png" alt="" />
+            <img className="w-[7.5rem] mt-1 mx-auto" src="/hardhat.png" alt="" />
             <p className="my-4">Hardhat</p>
           </div>
         </div>

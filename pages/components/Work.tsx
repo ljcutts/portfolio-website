@@ -97,14 +97,14 @@ const Work = () => {
                 Job Filtering
               </span>
               <div className="pt-8 text-center">
-                <Link href="https://ljcutts-job-listings-with-filtering.netlify.app/">
+                <Link href="https://clean-your-eth.vercel.app">
                   <a target="_blank">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
                     </button>
                   </a>
                 </Link>
-                <Link href="https://github.com/ljcutts/job-listings-with-filtering">
+                <Link href="https://github.com/ljcutts/clean-your-eth">
                   <a target="_blank">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code

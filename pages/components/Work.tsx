@@ -90,7 +90,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="shadow-lg shadow-[#040c16] bg-jobFiltering group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div className="shadow-lg shadow-[#040c16] bg-cleanEth group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
